@@ -93,18 +93,18 @@ int main()
     TUTeste testeTeste;
 
     switch(testeTeste.run()){
-        case TUTeste::SUCESSO: cout << "SUCESSO - DESENVOLVEDOR" << endl;
+        case TUTeste::SUCESSO: cout << "SUCESSO - TESTE" << endl;
                                 break;
-        case TUTeste:FALHA  : cout << "FALHA   - DESENVOLVEDOR" << endl;
+        case TUTeste:FALHA  : cout << "FALHA   - TESTE" << endl;
                                 break;
     }
 
     TUCasoDeTeste testeCaso;
 
     switch(testeCaso.run()){
-        case TUCasoDeTeste::SUCESSO: cout << "SUCESSO - DESENVOLVEDOR" << endl;
+        case TUCasoDeTeste::SUCESSO: cout << "SUCESSO - CASODETESTE" << endl;
                                 break;
-        case TUCasoDeTeste:FALHA  : cout << "FALHA   - DESENVOLVEDOR" << endl;
+        case TUCasoDeTeste:FALHA  : cout << "FALHA   - CASODETESTE" << endl;
                                 break;
     }
 
